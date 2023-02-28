@@ -10,19 +10,21 @@
         <!-- bottom header -->
         <div class="container flex jb ac mh-2">
             <figure>
-                <img class="img-fluid" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo DC">
+                <a href="{{route('home')}}">
+                    <img class="img-fluid" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logo DC">
+                </a>
             </figure>
             <ul class="flex">
-                <li class="pl-3">CHARACTERS</li>
-                <li class="pl-3">COMICS</li>
-                <li class="pl-3">MOVIES</li>
-                <li class="pl-3">TV</li>
-                <li class="pl-3">GAMES</li>
-                <li class="pl-3">COLLECTIBLES</li>
-                <li class="pl-3">VIDEOS</li>
-                <li class="pl-3">FANS</li>
-                <li class="pl-3">NEWS</li>
-                <li class="pl-3">SHOP</li>
+                <li class="pl-3"><a href="">CHARACTERS</a></li>
+                <li class="pl-3"><a href="{{route('comics.index')}}">COMICS</a></li>
+                <li class="pl-3"><a href="">MOVIES</a></li>
+                <li class="pl-3"><a href="">TV</a></li>
+                <li class="pl-3"><a href="">GAMES</a></li>
+                <li class="pl-3"><a href="">COLLECTIBLES</a></li>
+                <li class="pl-3"><a href="">VIDEOS</a></li>
+                <li class="pl-3"><a href="">FANS</a></li>
+                <li class="pl-3"><a href="">NEWS</a></li>
+                <li class="pl-3"><a href="">SHOP</a></li>
             </ul>
             <div>
                 SEARCH
