@@ -1,0 +1,37 @@
+footer {
+
+    .upper-footer {
+        height: calc(100vh - 515px);
+        background-image: url('../../resources/img/footer-bg.jpg');
+        background-size: cover;
+        font-family: "Open Sans Condensed", sans-serif;
+        overflow-y: auto;
+
+        h3 {
+            text-transform: uppercase;
+            padding: 20px 0;
+            color: white;
+        }
+
+        ul {
+            padding-right: 70px;
+        }
+
+        li {
+            padding: 2px 0;
+        }
+
+        a {
+            color: $custom2;
+            padding: 0;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+
+    figure {
+        width: 400px;
+    }
+}

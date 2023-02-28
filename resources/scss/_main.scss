@@ -1,0 +1,30 @@
+main {
+    .container {
+        position: relative;
+    }
+
+    li {
+        width: calc(100% / 6);
+        padding: 20px;
+    }
+
+    figure {
+        width: 180px;
+        height: 180px;
+        overflow: hidden;
+    }
+
+    h5 {
+        padding: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-50%);
+    }
+}
