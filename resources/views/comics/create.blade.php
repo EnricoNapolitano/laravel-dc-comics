@@ -11,7 +11,8 @@
 <body>
     
 <div class="container mt-5">
-<form action="" method="POST" class="row g-3">
+<form action="{{ route('comics.store') }}" method="POST" class="row g-3">
+@csrf
 <div class="col-md-6">
     <label for="title" class="form-label">Titolo</label>
     <input type="text" class="form-control" id="title" name="title" required>
