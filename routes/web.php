@@ -20,10 +20,14 @@ Route::get('/', function () {
 
 
 //Code below creates all the routes
-// Route::resource('comics', ComicController::class);
+//Route::resource('comics', ComicController::class);
+
 
 //Route for comics' list
 Route::get('/comics', [ComicController::class, 'index'])->name('comics.index');
+
+//Route to create
+Route::get('/comics/create', [ComicController::class, 'create'])->name('comics.create');
 
 //Route for specific comic
 Route::get('/comics/{id}', [ComicController::class, 'show'])->name('comics.show');
