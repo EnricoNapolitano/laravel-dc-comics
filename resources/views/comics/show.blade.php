@@ -6,8 +6,8 @@
     </figure>
     <div class="pl-3">
         <h1>{{$comic->title}}</h1>
-        <h3>{{$comic->price}}</h3>
-        <div>${{$comic->description}}</div>
+        <h3>${{$comic->price}}</h3>
+        <div>{{$comic->description}}</div>
     </div>
 </div>
 @endsection
