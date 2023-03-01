@@ -15,7 +15,7 @@
             <h2 class="bg-primary text-white pw-4 ph-2">CURRENT SERIES</h2>
         </div>
         <div class="flex jc ac">
-            <button class="bg-primary text-white pw-3 ph-1 mb-3"><b>LOAD MORE</b></button>
+            <a href="{{ route('comics.create') }}" class="bg-primary text-white pw-3 ph-1 mb-3"><b>UPLOAD COMIC</b></a>
         </div>
     </div>
 @endsection
