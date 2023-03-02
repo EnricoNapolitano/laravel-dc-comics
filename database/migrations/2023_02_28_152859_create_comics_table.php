@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('comics', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->text('description')->nullable();
+            $table->text('description');
             $table->string('thumb')->nullable();
             $table->float('price', 4, 2);
             $table->string('series');
