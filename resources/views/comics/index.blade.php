@@ -1,10 +1,10 @@
 @extends('layouts.app')
 @section('content')
     <div class="container">
-        <ul class="flex jc as wrap mh-5">
+        <ul class="flex jc as wrap ph-5">
             @foreach($comics as $comic)
             <li>
-                <figure>
+                <figure class="comics">
                     <a href="{{route('comics.show', $comic->id)}}"><img src="{{ $comic->thumb }}" alt="{{ $comic->series }}"></a>
                 </figure>
                 <h5>{{ $comic->series }}</h5>
